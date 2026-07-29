@@ -121,7 +121,7 @@ Paper 2: SBM‑DEA Eco‑Efficiency Benchmarking (in progress)
 Paper 3: This ML pipeline + extensions (targeting IEEE Trans on Power Systems)
 
 ## 📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License – see the [LICENSE](https://opensource.org/licenses/MIT) file for details.
 
 ## 🤝 Contributing
 Contributions are welcome! Please open an issue or pull request for any improvements.
