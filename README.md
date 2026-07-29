@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 ---
 
-### 📂 Data
+### 📊 Data
 
 Raw data is sourced from the ENTSO‑E Transparency Platform. Sample data is included for demonstration.
 
