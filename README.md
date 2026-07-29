@@ -31,16 +31,17 @@ This research develops an interpretable Business Intelligence (BI) framework to 
 
 ---
 
-## 🛠 Repository Structure
+## 📂 Repository Structure
 ```text
 BESS_Flexibility_ML/
-├── data/                    # Sample preprocessed hourly data
+├── data/
+│ └── sample_market_data.csv       # Sample preprocessed hourly data
 ├── notebooks/
-│   ├── 01_data_alignment.ipynb    # UTC synchronization & anomaly filtering
-│   ├── 02_rf_model_training.ipynb # Random Forest regression & tuning
-│   └── 03_shap_interpretation.ipynb # SHAP feature attribution
+│ ├── 01_data_alignment.ipynb      # UTC synchronization & anomaly filtering
+│ ├── 02_rf_model_training.ipynb   # Random Forest regression & tuning
+│ └── 03_shap_interpretation.ipynb # SHAP feature attribution & strategic triggers
 ├── src/
-│   ├── preprocessing.py     # Data governance funnel (ETL)
-│   └── modeling.py          # ML pipeline configurations
-├── requirements.txt         # Python dependencies
+│ ├── preprocessing.py             # Data governance funnel (ETL)
+│ └── modeling.py                  # ML pipeline configurations
+├── requirements.txt               # Python dependencies
 └── README.md
