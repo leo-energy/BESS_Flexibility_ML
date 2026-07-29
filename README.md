@@ -46,38 +46,45 @@ BESS_Flexibility_ML/
 ├── requirements.txt               # Python dependencies
 └── README.md
 
-```text
+```
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+#### Prerequisites
 - Python 3.10+
 - pip
 
-### Installation
+#### Installation
+
 ```bash
+
 git clone https://github.com/leo-energy/BESS_Flexibility_ML.git
 cd BESS_Flexibility_ML
 pip install -r requirements.txt
 
 ---
 
-## Data
+### Data
 Raw data is sourced from the ENTSO‑E Transparency Platform. Sample data is included for demonstration.
 
 ---
 
-## Run the Pipeline
-# 1. Data alignment
+### Run the Pipeline
+```text
+#### # 1. Data alignment
 jupyter notebook notebooks/01_data_alignment.ipynb
 
-# 2. Model training
+#### # 2. Model training
 jupyter notebook notebooks/02_rf_model_training.ipynb
 
-# 3. SHAP interpretation
+#### # 3. SHAP interpretation
 jupyter notebook notebooks/03_shap_interpretation.ipynb
+
+---
+
+```
 
 ---
 
@@ -90,7 +97,8 @@ Cross‑Market Decoupling: 30% asynchronous volatility enables FaaS cross‑bord
 
 ---
 
-##🔮 Future Work (Proposal Extension)
+## 🔮 Future Work (Proposal Extension)
+
 Incorporate Gaussian Process Regression (GPR) for uncertainty quantification.
 
 Apply Deep Reinforcement Learning (DDPG/PPO) for real‑time bidding.
@@ -108,8 +116,15 @@ Paper 2: SBM‑DEA Eco‑Efficiency Benchmarking (in progress)
 
 Paper 3: This ML pipeline + extensions (targeting IEEE Trans on Power Systems)
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please open an issue or pull request for any improvements.
+
+## 📧 Contact
+Author: Leonardo Xi
+
+GitHub: [github.com/leo-energy](https://github.com/leo-energy)
+
+LinkedIn: [linkedin.com/in/leonardo-xi](https://www.linkedin.com/in/leonardo-xi/)
