@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data files (raw data should not be committed)
+data/raw/
+*.csv
+*.xlsx
+*.parquet
+
+# Logs and outputs
+logs/
+*.log
+results/
+outputs/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Package management
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
