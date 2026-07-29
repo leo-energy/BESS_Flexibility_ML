@@ -56,35 +56,39 @@ BESS_Flexibility_ML/
 - Python 3.10+
 - pip
 
-#### Installation
+### Installation
 
 ```bash
-
-git clone https://github.com/leo-energy/BESS_Flexibility_ML.git
+git clone https://github.com
 cd BESS_Flexibility_ML
 pip install -r requirements.txt
+```
 
 ---
 
-### Data
+### 📂 Data
+
 Raw data is sourced from the ENTSO‑E Transparency Platform. Sample data is included for demonstration.
 
 ---
 
-### Run the Pipeline
-```text
-#### # 1. Data alignment
+### 🚀 Run the Pipeline
+
+#### 1. Data alignment
+```bash
 jupyter notebook notebooks/01_data_alignment.ipynb
-
-#### # 2. Model training
-jupyter notebook notebooks/02_rf_model_training.ipynb
-
-#### # 3. SHAP interpretation
-jupyter notebook notebooks/03_shap_interpretation.ipynb
-
----
-
 ```
+
+#### 2. Model training
+```bash
+jupyter notebook notebooks/02_rf_model_training.ipynb
+```
+
+#### 3. SHAP interpretation
+```bash
+jupyter notebook notebooks/03_shap_interpretation.ipynb
+```
+
 
 ---
 
